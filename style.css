@@ -1,0 +1,57 @@
+body{
+    margin :0px;
+    padding: 0px;
+
+}
+#head01
+{
+    display: flex;
+    background-color: rgb(245, 217, 162);
+    padding-left: 100px;
+    color: red;
+}
+section{
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap : 5px;
+    margin-left : 8rem;
+    margin-right: 8rem;
+    margin-top : 5rem;
+    
+ }
+ .imges{
+    border-radius: 0.5rem;
+ }
+ .sec{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 110px;
+    margin-right: 110px;
+    background-color: rgb(229, 194, 206);
+    padding-left: 100px;
+    height: 120px;
+    align-items: center;
+    border-radius: 0.5rem;
+ }
+ .text{
+ color: purple;
+ padding-left: 220px;
+ }
+ .para{
+    margin-top: 100px;
+    text-align: center;
+    padding-right: 300px;
+ }
+ header div h1{
+    margin-top: 0.6rem;
+    margin-left: 0.5rem;
+}
+header {
+    justify-content: space-between;
+ }
+.navbar{
+    position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
